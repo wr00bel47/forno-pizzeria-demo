@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FORNO — fikcyjna pizzeria neapolitańska. Projekt demonstracyjny do portfolio.">
+  <title>FORNO — Pizza Napoletana | Demo</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="demo-banner">PROJEKT DEMONSTRACYJNY — fikcyjna marka i dane</div>
+
+  <header class="site-header">
+    <a class="logo" href="#start" aria-label="FORNO — strona główna">
+      <span class="logo-mark">F</span>
+      <span>FORNO<span class="logo-sub">PIZZA NAPOLETANA</span></span>
+    </a>
+    <button class="menu-toggle" aria-label="Pokaż nawigację" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Główna nawigacja">
+      <a href="#menu">Menu</a>
+      <a href="#historia">Nasza filozofia</a>
+      <a href="#kontakt">Kontakt</a>
+      <a class="nav-cta" href="#kontakt">Odwiedź nas <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="start">
+      <div class="hero-image" role="img" aria-label="Pizza neapolitańska z pomidorami, mozzarellą i bazylią"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="dot"></span> RZEMIEŚLNICZA PIZZA • WYPiekANA NA MIEJSCU</p>
+        <h1>Proste składniki.<br><em>Wielka miłość.</em></h1>
+        <p class="hero-copy">Dobre ciasto potrzebuje czasu. Reszta to pomidory, mozzarella i ogień. Poznaj pizzę, do której chce się wracać.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#menu">Odkryj nasze menu <span>↓</span></a>
+          <a class="button button-ghost" href="#historia">Poznaj FORNO</a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span> DŁUGA FERMENTACJA · ŚWIEŻE SKŁADNIKI</div>
+      </div>
+      <div class="hero-side-label">NAPOLI, CON AMORE</div>
+    </section>
+
+    <section class="intro-strip">
+      <div><span class="strip-icon">✳</span><span>Ciasto dojrzewające 48 godzin</span></div>
+      <div><span class="strip-icon">✳</span><span>Składniki inspirowane Italią</span></div>
+      <div><span class="strip-icon">✳</span><span>Prosto z pieca na Twój stół</span></div>
+    </section>
+
+    <section class="menu-section section-pad" id="menu">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">MAŁE MENU, WIELKI SMAK</p>
+          <h2>Nasze <em>klasyki.</em></h2>
+        </div>
+        <p class="section-description">Kilka składników. Dopracowane proporcje. Zero zbędnych dodatków.</p>
+      </div>
+
+      <div class="pizza-grid">
+        <article class="pizza-card">
+          <div class="pizza-photo margherita" role="img" aria-label="Pizza Margherita"></div>
+          <div class="pizza-info">
+            <div class="pizza-title-row"><h3>Margherita</h3><span class="price">29 zł</span></div>
+            <p class="ingredients">Sos pomidorowy, mozzarella fior di latte, bazylia, oliwa.</p>
+            <span class="pizza-tag">KLASYK</span>
+          </div>
+        </article>
+        <article class="pizza-card">
+          <div class="pizza-photo diavola" role="img" aria-label="Pizza Diavola"></div>
+          <div class="pizza-info">
+            <div class="pizza-title-row"><h3>Diavola</h3><span class="price">36 zł</span></div>
+            <p class="ingredients">Sos pomidorowy, mozzarella, pikantne salami, chili.</p>
+            <span class="pizza-tag">Z CHARAKTEREM</span>
+          </div>
+        </article>
+        <article class="pizza-card">
+          <div class="pizza-photo fungi" role="img" aria-label="Pizza Funghi"></div>
+          <div class="pizza-info">
+            <div class="pizza-title-row"><h3>Funghi</h3><span class="price">34 zł</span></div>
+            <p class="ingredients">Mozzarella, pieczarki, tymianek, czarny pieprz.</p>
+            <span class="pizza-tag">LEŚNY AROMAT</span>
+          </div>
+        </article>
+      </div>
+      <p class="menu-disclaimer">Przykładowe pozycje i ceny — wyłącznie na potrzeby demonstracji.</p>
+    </section>
+
+    <section class="story-section" id="historia">
+      <div class="story-photo" role="img" aria-label="Ręczne przygotowywanie ciasta na pizzę"></div>
+      <div class="story-copy">
+        <p class="eyebrow">MAMY CZAS NA DOBRĄ PIZZĘ</p>
+        <h2>Nie idziemy<br>na <em>skróty.</em></h2>
+        <p>W FORNO wierzymy, że najlepsze rzeczy powstają z cierpliwości. Dlatego dajemy ciastu czas, wybieramy proste składniki i pilnujemy każdego detalu.</p>
+        <p>Bez wielkich tajemnic. Po prostu dobre jedzenie, przy którym chce się zostać trochę dłużej.</p>
+        <a class="text-link" href="#kontakt">Wpadnij do nas <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="visit-section section-pad" id="kontakt">
+      <div class="visit-copy">
+        <p class="eyebrow">ZAPACH PIECA JUŻ CZEKA</p>
+        <h2>Do zobaczenia<br><em>przy stole.</em></h2>
+        <p>Wpadnij na spokojny obiad, spotkanie ze znajomymi albo pizzę na koniec długiego dnia.</p>
+      </div>
+      <div class="contact-card">
+        <div class="contact-row">
+          <span class="contact-label">ADRES DEMO</span>
+          <p>ul. Przykładowa 12<br>00-001 Warszawa</p>
+        </div>
+        <div class="contact-row">
+          <span class="contact-label">GODZINY OTWARCIA</span>
+          <p>Wt–Czw: 13:00–21:00<br>Pt–Nd: 12:00–22:00<br>Poniedziałek: zamknięte</p>
+        </div>
+        <div class="contact-row">
+          <span class="contact-label">TELEFON DEMO</span>
+          <p>000 000 000</p>
+        </div>
+        <a class="button button-primary full-button" href="https://maps.google.com/?q=ul.+Przyk%C5%82adowa+12+Warszawa" target="_blank" rel="noopener noreferrer">Zobacz przykładową mapę <span>↗</span></a>
+        <p class="contact-disclaimer">Adres, telefon i godziny są fikcyjne. To nie jest działający lokal.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="logo footer-logo" href="#start"><span class="logo-mark">F</span><span>FORNO<span class="logo-sub">PIZZA NAPOLETANA</span></span></a>
+    <p>Projekt demonstracyjny do portfolio · Fikcyjna marka</p>
+    <a href="#start" class="back-top">NA GÓRĘ ↑</a>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector(".menu-toggle");
+    const nav = document.querySelector(".nav-links");
+
+    toggle.addEventListener("click", () => {
+      const isOpen = nav.classList.toggle("is-open");
+      toggle.setAttribute("aria-expanded", String(isOpen));
+      toggle.setAttribute("aria-label", isOpen ? "Ukryj nawigację" : "Pokaż nawigację");
+    });
+
+    nav.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        nav.classList.remove("is-open");
+        toggle.setAttribute("aria-expanded", "false");
+      });
+    });
+  </script>
+</body>
+</html>
