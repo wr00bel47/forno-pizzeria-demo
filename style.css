@@ -55,7 +55,8 @@ h1 em, h2 em { color: var(--accent); font-weight: 500; }
 
 .section-pad { padding: 105px 10%; }
 .menu-section { background: var(--bg);
-               padding-bottom: 35px;}
+               padding-bottom: 35px;
+              }
 .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 30px; margin-bottom: 42px; }
 .section-heading .eyebrow { margin-bottom: 15px; }
 h2 { font-size: clamp(39px, 4.5vw, 58px); margin-bottom: 0; }
