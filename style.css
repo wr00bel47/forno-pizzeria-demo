@@ -291,5 +291,10 @@ h2 { font-size: clamp(39px, 4.5vw, 58px); margin-bottom: 0; }
     flex-direction: column;
   }
 }
+  .story-section .story-photo {
+  background-image: url("./forno-ciasto.png.png") !important;
+  background-size: cover;
+  background-position: center;
+}
 
 
