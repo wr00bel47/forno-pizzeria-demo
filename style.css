@@ -91,7 +91,15 @@ h2 { font-size: clamp(39px, 4.5vw, 58px); margin-bottom: 0; }
 .pizza-tag { font-size: 8px; letter-spacing: 1.5px; color: #d9d2bf; border-top: 1px solid var(--line); display: block; padding-top: 14px; }
 .menu-disclaimer { color: #8e8d83; font-size: 10px; margin: 20px 0 0; }
 
-.story-section { display: grid; grid-template-columns: 1fr 1fr; min-height: 500px; background: #22241f; }
+.story-section {   display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 500px;
+  background: #22241f;
+  width: 80%;
+  margin: 0 auto 70px;
+  overflow: hidden;
+}
+
 .story-photo {   min-height: 480px;
   background-image: url("forno-ciasto.png.png");
   background-size: cover;
@@ -325,6 +333,14 @@ h2 { font-size: clamp(39px, 4.5vw, 58px); margin-bottom: 0; }
   .story-photo {
     min-height: 300px;
   }
+}
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 500px;
+  background: #22241f;
+  width: 80%;
+  margin: 0 auto 70px;
+  overflow: hidden;
 }
 
 
